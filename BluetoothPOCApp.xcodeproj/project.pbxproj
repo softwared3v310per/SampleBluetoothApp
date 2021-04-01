@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		1D4C7ABE2614044B005D930F /* CommonStrings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D4C7ABD2614044B005D930F /* CommonStrings.swift */; };
 		1DA69401260D5B0500BDC94F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DA69400260D5B0500BDC94F /* AppDelegate.swift */; };
 		1DA69403260D5B0500BDC94F /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DA69402260D5B0500BDC94F /* SceneDelegate.swift */; };
 		1DA69408260D5B0500BDC94F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1DA69406260D5B0500BDC94F /* Main.storyboard */; };
@@ -18,7 +17,6 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		1D4C7ABD2614044B005D930F /* CommonStrings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommonStrings.swift; sourceTree = "<group>"; };
 		1DA693FD260D5B0500BDC94F /* BluetoothPOCApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BluetoothPOCApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1DA69400260D5B0500BDC94F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		1DA69402260D5B0500BDC94F /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -64,7 +62,6 @@
 				1DA69400260D5B0500BDC94F /* AppDelegate.swift */,
 				1DA69402260D5B0500BDC94F /* SceneDelegate.swift */,
 				1DA69416260D617300BDC94F /* BluetoothViewController.swift */,
-				1D4C7ABD2614044B005D930F /* CommonStrings.swift */,
 				1DB8885D2610F44A0054A54E /* SignInViewController.swift */,
 				1DA69406260D5B0500BDC94F /* Main.storyboard */,
 				1DA69409260D5B0900BDC94F /* Assets.xcassets */,
@@ -152,7 +149,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				1DB8885E2610F44A0054A54E /* SignInViewController.swift in Sources */,
-				1D4C7ABE2614044B005D930F /* CommonStrings.swift in Sources */,
 				1DA69417260D617300BDC94F /* BluetoothViewController.swift in Sources */,
 				1DA69401260D5B0500BDC94F /* AppDelegate.swift in Sources */,
 				1DA69403260D5B0500BDC94F /* SceneDelegate.swift in Sources */,

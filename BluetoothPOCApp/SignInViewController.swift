@@ -7,14 +7,8 @@
 import LocalAuthentication
 import UIKit
 
-enum State {
-    case loggedIn
-    case loggedOut
-}
-
 class SignInViewController: UIViewController {
 
-    var state: State = .loggedOut
     @IBOutlet weak var signInButton: UIButton! {
         didSet {
             signInButton.setTitle("Login", for: .normal)
@@ -24,7 +18,7 @@ class SignInViewController: UIViewController {
     }
     
     @objc func login() {
-        var context = LAContext()
+        let context = LAContext()
         context.localizedCancelTitle = "Cancel"
         var error: NSError?
         if context.canEvaluatePolicy(.deviceOwnerAuthentication, error: &error) {
