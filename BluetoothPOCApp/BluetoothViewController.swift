@@ -11,7 +11,6 @@ import CoreBluetooth
 class BluetoothViewController: UIViewController {
     
     let cbCentralManager = CBCentralManager()
-    var transferCharacteristic: CBMutableCharacteristic?
     var peripheral: CBPeripheral?
     var peripheralArray: [CBPeripheral] = [CBPeripheral]()
     
